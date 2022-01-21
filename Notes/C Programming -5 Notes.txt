@@ -1,0 +1,264 @@
+Increment and Decrement
+-------------------------------------
+
+a++ : Post Increment
+------------------------------
+ First assign value then Incremented value store.
+
+
+++a:  Pre Increment
+----------------------------
+Incremented value assign and incremented value store.
+     
+
+
+Example-1:
+-------------
+
+int main()
+{
+   int a=10, b=20;
+   int x,y;
+
+  x=a++;     //   x=10  a=11
+  y=++b;     // y=21    b=21
+
+  printf("%d",x);  // 10 
+  printf("%d",y)    //21
+ 
+}
+
+
+
+Example-2
+----------------
+
+int main()
+{
+     int a=101,b=102;
+     int x,y;
+
+     x=a++;  // x=101    a=102
+    y=--b;  //  y=101    b=101
+
+   printf("%d",x);  //   101   
+   printf("%d",b); //   101    
+   printf("%d",y); //   101    
+
+return 0;
+}
+
+
+
+
+Example-3
+---------------
+
+int main()
+{
+     int a=11,b=10,c=12;
+     int x,y;
+
+      ++a;   // a=12
+       b--;   //b=9
+
+     x=a++;  // x=12   a=13
+     y=b--;   // y=9   b=8 
+     
+   printf("%d",x);  //   12           
+   printf("%d",b); //    8          
+   printf("%d",y); //    9      
+
+return 0;
+}
+
+
+Example-3
+---------------
+
+int main()
+{
+     int a=102  ,b=101  ,  c=103    ;
+      int x,y,z,m;
+
+      x=a--;    // x=102    a=101
+     y=++a;  // y=102   a=102
+     z=b--;   // z=101   b=100
+    m=--b; // m=99   b=99
+                                                     
+printf("%d",y); //102          
+printf("%d",b); //99                     
+printf("%d",z);  //101                     
+printf("%d",m); //99     
+
+return 0;
+}
+
+int main()
+{
+     int a=101,b=100;
+     int x;
+
+     a=b++;       // a=100   b=101    
+     if(a!=b)   //true
+      {
+            printf("Hi hi");  
+       }
+    else
+     {
+        printf("Bye bye");      
+      } 
+   
+return 0;
+}
+
+
+
+int main()
+{
+     int a=101,b=101;
+     int x;
+
+     a=b++;               // a=101    b=102
+    
+     if(a!=b && b==a)   
+      {
+            printf("Hi hi");  
+       }
+    else
+     {
+        printf("Bye bye");         Ans  
+      } 
+   
+
+Ternary Operator  (?:)
+---------------------------------
+Ternary operator is simliar like if else .
+ If else work on multiple line but ternary operator work on single line.
+
+   Syntax:       datatype  variable_name=(condition ?  value1 : value2)
+ 
+
+                    if condition is true then o/p value1
+                    if condition is false then o/p value2
+
+Example
+---------------
+
+int main()
+{
+       int a=20,b=20,c=40;
+        int x;
+
+        x=( a!=c  ? 30 : b);
+
+      printf("%d",x)       //o/p  30
+   
+   return 0;
+}
+       
+                        
+
+int main()
+{
+       int a=201,b=203,c=202;
+        int x,y,z;
+
+          x=a++;      // a=201   a=202      
+        
+         x=( a!=c  ? a : b);
+
+         printf("%d",x);           o/p  203
+   
+         return 0;
+}
+
+
+ 
+
+
+ASCII VALUE
+--------------------
+A=65     a=97
+
+
+
+int main()
+ {
+     int x=65,y=100;
+
+   int    z=(x!=y? x: y);
+
+   printf("%c",z);           // A 
+
+return o;
+}
+
+
+
+int main()
+ {
+     int x=65;
+
+     while(x<=70)
+     {
+         printf("%d===>%c",x,x);
+        
+          x++;
+    }  
+       
+
+return o;
+}
+
+o/p
+-------
+ 65===>A
+        66===>B
+        67===>C
+        68===>D
+        69===>E
+       70====>F
+     
+                                       ----------------END FOR TODAY------------------------
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+

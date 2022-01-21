@@ -1,0 +1,162 @@
+
+Home/Hostel/Room Work  
+--------------------------------------------------------------------------------
+wap to  print first number , middle number and last number from 3 digit number 
+ n=543   and print sum of them.
+
+#include<stdio.h>  // printf()
+#include<conio.h>  // getch()
+
+int main()
+{
+    int n=543;
+	int a,b,c,x,s;
+	
+	x=n/10;  // x=54
+	a=n%10;  //  a=3
+	
+	b=x/10; // b=5
+	c=x%10; //  c=4
+	
+	
+	printf("\n The Given Number is %d ",n);
+	
+	printf("\n The First Number is %d ",b);
+	printf("\n The Middle Number is %d ",c);
+	printf("\n The Last Number is %d ",a);
+	
+	s=a+b+c;
+	
+	printf("\n Sum of all number is %d ",s);
+	
+
+
+	getch();      
+}
+
+
+
+
+Wap to print second and second last number from 5 digit number
+  n=12845  and also print sum of square of them.
+
+Hint :                  n=12845
+                                  2   4
+                             2*2  +  4*4
+                             
+
+Ans:
+#include<stdio.h>  // printf()
+#include<conio.h>  // getch()
+int main()
+{
+    int n=12345;
+    int a,b,s;
+	
+	a=(n/10)%10;   // a=4
+	b=(n/1000)%10; // b=2	
+	
+	s= (a*a) + (b*b);
+  
+     printf("\n The Given number is %d ",n); // 54321
+  
+     printf("\n Second number is %d ",b); // 2
+     printf("\n Second last number is %d ",a);//4
+     printf("\n Sum of square is %d ",s); // 20
+
+	getch();      
+}
+
+
+
+
+
+How to Accept Value from User
+---------------------------------------------
+
+C Lang Provides us , library function   i.e  scanf()
+which is used to accept/read value from user and process for further operation.
+
+        1)How to Read Single Value
+          -----------------------------------------
+               printf("Enter the one Integer value ");
+               scanf("%d",&a);
+
+       2)How to Read three Value
+          -----------------------------------------
+               printf("Enter the three Integer value ");
+               scanf("%d%d%d",&a,&b,&c);
+
+      3) How to Read One Integer value, String Value , Char value , Decimal Value
+         -----------------------------------------------------------------------------------------------------
+            printf("Enter Rollno, Name , Grade, Percentage  ");  <==== Visible
+            scanf("%d%s%c%f",&rno,&name,&grade,&per);   <====    Not visible
+
+
+
+  OnHold (Dont write)
+----------------------------------
+   Example:   Wap to read/accept Rollno, Name, Grade, Percentage and print that information.
+    ------------
+#include<stdio.h>  // printf()
+#include<conio.h>  // getch()
+int main()
+{
+    int rno;
+    char name[10]; // Amit
+    char grade;   // A    B
+    float per;
+    
+    printf("Enter the Rollno and Name of Student ");
+    scanf("%d%s",&rno,&name);
+    
+    printf("Enter the Grade and Percentage of Student ");
+    scanf("%c%f",&grade,&per);
+    
+    
+    printf("\n The Roll no is        :%d",rno);
+    printf("\n Name of Student  is   :%s",name);
+    printf("\n Percentage is         :%f",per);
+    printf("\n Grade of student is   :%c",grade);
+    
+  
+	getch();      
+}
+
+              
+
+
+   
+
+wap  read    value for l,b,h and calculate volume of Box.
+    v=l*b*h
+
+Ans: 
+#include<stdio.h>  
+#include<conio.h>  
+int main()
+{
+	 int l,b,h;
+	 int v;
+	 
+	 printf("Enter the value for length bredth, Height");
+	 scanf("%d%d%d",&l,&b,&h); // 2 3 4
+	 
+	 v=l*b*h;  // v=24
+	 
+	 printf("\n The Volume of Box is %d",v);
+	
+     getch();  // or return 0;         
+}
+
+                                -------------------------------END FOR TODAY----------------------------------
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,205 @@
+1)SMART PHONE : 40000   :    20% Off :  
+                                  80% pay=32000
+
+2) TV Samsung  80000 :   40% off:   48000  
+                                 60%=
+
+3) Laptop : 200,000  :  20% off:  1,60,000  
+                       80
+
+4)Aditya Infotech  :    Aditya  :   40%   :   32000
+     80000                      Saurabh :  50%  :  40000
+                                      Comapny: 10%  :  8000
+
+5) Watch               :       70 000  :      Axis  20% off : 56000
+                                                            HDFC 30% off :49000
+                                                            ICICI   10% 0ff  :63000
+
+6) SBI BANK:  Office Loan : 400,000  :  20% ROI /Yr
+                                               1yr  80000
+                                               2yr  80000
+                                               3yr  80000
+                                               4yr  80000
+                                     ------------------------------------
+                                                4,32000,   5,28000,     7 20,000 
+                                                                                         
+
+7) HP Laptop :    30,000 :    30% Increase sale : 39000
+
+8) Real Laptop :  60000     40% increase     +20% GST= 96000
+                               
+--------------------------------------------------------------------------------------------------------------------------------------------              
+
+wap to read productName, rate, quantity and calculate Bill amount.
+If bill amount more than 10000 then 30% discount.
+#include<stdio.h>
+int main()
+{
+	 char pname[10];
+	 int rate,qty,bill;
+	 int dis, fbill;
+	 
+    printf("Enter the Product Name");
+	scanf("%s",&pname);
+	
+	printf("\nEnter the Product Rate and Quantity");
+	scanf("%d%d",&rate,&qty);
+	
+	bill=rate * qty;
+	
+	printf("\n The Bill amount is :%d ",bill);//40000
+	
+	if(bill>=10000)
+	{
+	      dis=bill*0.30; // 12000=40000*0.30 
+		  fbill=bill-dis ;   //28000=40000-12000 
+		  printf("\n The Discount amount   :%d",dis);
+		  printf("\n The Final Bill amount :%d",fbill); 	
+	}
+	else
+	{
+		  printf("\n Not eligible to discount");
+	}
+	  printf("\n**Thank you for Shopping with Us **\n");
+	  
+	getch();
+}
+
+------------------------------------------------------------------------------------------------------------
+wap to read floor number and check pizza shop available or not
+ ( consider pizza shop at 4th and 7th floor)
+
+#include<stdio.h>
+int main()
+{
+     int fno;
+     
+     printf("Enter the Floor Number ");
+     scanf("%d",&fn); // 7
+     
+     if(fn==4  || fn==7)
+      {
+      	  printf("Pizza shop available "); 
+	  }
+	  else
+	  {
+	  	    printf("Pizza shop not available ");
+	  }
+      	  
+	getch();
+}
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+wap to read time and check PIZZA SHOP open or not.
+           ( 10am to   10pm)
+             10  to 22 open 
+
+Ans: #include<stdio.h>
+
+int main()
+{
+     int time;
+     
+     printf("Enter the  time  ");
+     scanf("%d",&time); // 11
+     
+     if(time>=10 && time<=22)
+      {
+      	  printf("\n Pizza shop Open "); 
+      	   if(time>=14 && time<=18)
+      	   {
+      	   	  printf("\n Happy Hours");
+      	   	  printf("\n Buy one get One");
+			}
+	  }
+	  else
+	  {
+	  	    if(time>=22 && time<=23)
+	  	    {
+	  	      printf("\n Take Away ");
+      	   	      printf("\n Buy one get Three");	
+	                     }
+	  	    printf("Pizza shop  close ");
+	  }
+      	  
+	return 0;
+}
+
+
+                                 --------------------END FOR TODAY------------------------------
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

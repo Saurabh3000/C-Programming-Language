@@ -1,0 +1,349 @@
+Loops In C Programming
+--------------------------------
+There are different types of  loops  
+ 1)while loop
+ 2) For Loop
+ 3) Do while loop
+
+
+ 1)while loop  :
+--------------------
+Syntax:
+----------
+         intialization
+
+          while(condition)
+           {
+                   statement-1
+
+                   increment/decrement
+           }
+            
+
+1)wap to print all number from 1 to 10.
+Ans:
+
+#include<stdio.h>
+
+int main()
+{
+	int i=1;
+		
+	while(i<=10)
+	{
+		 printf("\n %d",i); 
+		 
+		 i++;
+	}
+	
+  return 0; 
+}
+
+
+
+2) wap to  print all number from 10 to 1.
+Ans: 
+-------
+#include<stdio.h>
+
+int main()
+{
+	int i=10;
+		
+	while(i>=1)
+	{
+		 printf("\n %d",i);  
+		 
+		 i--;
+	}
+	
+  return 0; 
+}
+
+Home work
+-----------------
+2) wap to  print all number from 5 to 15.
+
+
+
+3)wap to print all number from 17 to 7.
+
+
+
+
+4)wap print all even number from  2 to 20.
+
+#include<stdio.h>
+
+int main()
+{
+	int i=2;
+		
+	while(i<=20)
+	{
+		 printf("\n %d",i);   // 2  4 6  8.....18  20
+		 
+		 i=i+2;
+	}
+	
+  return 0; 
+}
+
+
+Home work
+------------------
+5) wap to print all odd number from 23 to 13.
+
+
+
+
+
+
+6)wap to print india 5 times.
+Ans: 
+#include<stdio.h>
+
+int main()
+{
+	int i=1;
+	
+	while(i<=5)
+	{
+		
+		printf("%d.INDIA\n",i);
+		
+		i++;
+	}
+	
+	
+	
+	
+	
+  return 0; 
+}
+
+
+
+7) wap to print table of 5 .
+
+#include<stdio.h>
+
+int main()
+{
+  int i=1;
+  
+  while(i<=10)
+  {
+  	 printf("\n%d",i*5);
+  	
+  	i++;
+  }
+
+	
+	
+	
+	
+  return 0; 
+}
+
+
+
+
+
+8)wap to print table of 7 in  reverse order. 
+#include<stdio.h>
+
+int main()
+{
+  int i=10;
+  
+  while(i>=1)
+  {
+  	 printf("\n%d",i*7);
+  	
+  	i--;
+  }
+	
+  return 0; 
+}
+
+
+
+
+9)wap to print table of  4 and o/p.
+     1*4=4
+     2*4=8
+     -------
+    --------
+    -------
+   10*4=40
+
+#include<stdio.h>
+
+int main()
+{
+  int i=1;
+  
+  while(i<=10)
+  {
+  	  printf("\n %d * 4 =%d",i,i*4);
+  	  
+  	i++;
+  }
+  
+  return 0; 
+}
+
+
+
+Home work
+------------------
+10) wap to print table 6 in reverse order and o/p
+     
+           10*6=60
+           ------------
+           ------------
+           1*6=6
+ 
+
+Home work
+-----------------
+11) wap to print all alternate number from  1 to 17.
+  o/p   1 3 5 7
+    
+
+
+
+12)wap to print all  from 1 to 10 excluding   5 to 8  number.
+
+#include<stdio.h>
+
+int main()
+{
+  int i=1;
+
+  while(i<=10)
+  {	
+  	 if(i<5 || i>8)
+  	 {
+  	     printf(" %d ",i);  //1 2 3 4	  9  10
+     }
+  	
+  	i++;
+  }
+  
+  return 0; 
+}
+
+
+
+Home work
+------------------
+13) wap to print all number 2 to 20  excluding   5 to 9 and  12 to 17.
+   o/p       2  3 4      10   11  18    19 20 
+
+
+
+
+14)wap to print sum of all number from 1 to 5.
+         1+2+3+4+5=15
+#include<stdio.h>
+
+int main()
+{
+    int i=1;
+    int s=0;
+	
+	while(i<=5)
+	{
+		printf(" %d ",i);   
+		
+		s=s+i;
+		
+		i++;
+	 } 
+	 
+	 printf("\n The Sum of all number is %d ",s);
+	 
+  return 0; 
+}
+
+
+Home work
+15) wap to print sum of square all number 1 to 5 and print sum of  cube 
+      all number 1 to 5.
+
+
+
+
+
+                                            
+                    ----------------------END FOR TODAY------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+

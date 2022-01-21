@@ -1,0 +1,224 @@
+Introduction C Programming
+-----------------------------------------
+
+Algol  Lang
+Basic Computer Programming lang
+C lang
+
+Father of C Lang is Dennise Ritche, bell lab at USA.
+
+
+C Programming language provides features(library function ) through which we can build software compiler.
+Here Library function are used to perform specific task, 
+there is no require to type/write code for that function. We can use that library function for Particular Operation
+in our program.
+
+General Structure of C Program
+------------------------------------------
+
+Header Files                         done
+variable global declaration   done
+
+int main()                    <------------------------------------
+{
+      local variable;
+
+      statement;
+
+    return 0;             <----------------------------------------
+}
+
+
+
+Explanation  of Syntax
+--------------------------------- 
+1) Header Files  :     It store set of library function,  which is use for different types of operation.
+---------------------- 
+
+                                                          Compiler
+                                                               |
+   ----------------------------------------------------------------------------------------------------------------------------------------------    
+   |                                                  |                                        |                                         |
+ stdio.h                                            conio.h                                 String.h                                  amazon.h
+1)printf()                                        1)getch()                                1)strlen()                                1)login()
+2)scanf()                                         2)clrscr()                               2)strcat()                                2) buy()
+                                                                                           3)strcpy()                                3)ProductCancel()
+                                                                                           4)strrev()                                4)refund()
+                                                                                           5)strlwr()                                5)complaint()
+                                                                                           6)strupr()
+                                                                                           7)strcmp()
+
+
+2) variable global declaration:-
+----------------------------------------
+In this section , when we defined any value to variable ( int a=50), then this value will be with in 
+all function  means throught out program.  Such variable is called as Global variable.
+Scope of global variable is unlimited.(  eg. Modi)
+
+
+3) int main():-   
+----------------
+This main function, from where execution of program begains/start. This main function does not 
+rerturn any value , hence we have to use return 0 at end of program.
+     
+
+4) local variable:-
+---------------------
+In this section, when we defined a value to variable ( int a=100) then this variable only access with in function
+can not work outside function.  Hence scope of local variable is limited. (eg. Udhava Thakre)
+
+
+
+
+5) statement:-
+-------------------------------------------------------------------------------------------------------------
+It is set of instruction , which is used to perform operation , operation can be calculate payment , 
+Cancel Product , calculate volume of Box,   find total mark, percentage.
+
+
+  
+Operators in C Programming
+-------------------------------------
+1)Arithmetic Operators
+------------------------------------
+     +,  -, *, %, / 
+
+2)Relational Operators/ Conditional Operators
+-------------------------------------------------------------------
+    <             less than
+    >            grt than
+   <=           less than equal to
+    >=          grt  than equal to
+   ==          equal to equal
+   !=          not equal to
+
+
+3)Logical Operators
+--------------------------- 
+    &&     <--------     and 
+    ||     <---------   OR
+    !       <--------  not
+
+4)Increment and Decrement Operator
+------------------------------------------------------
+    
+1)     pre Increment  :      ++a
+
+2)     post Increment  : a++
+
+3)     pre decrement  : --a
+
+4)     post  decrement  :    a--
+
+
+Notes:     semi colon(;) is mandatory after each statement.
+
+
+We have to use   software   Dev++
+------------------------------------------------
+https://sourceforge.net/projects/orwelldevcpp/
+
+
+
+Data Type and its access specifier
+-------------------------------------------
+
+ Data Type     Access Specifier
+
+1) int           %d    : It is used to store whole number   eg.  int a=444,  int b=5;
+
+2) float         %f   : It is used to store decimal value      eg. float  per=55.66  , float  roi=7.5
+
+3) char          %c   : It is used to store char value       eg.   char     g='M'  ,     
+                                                                                           char   grade='A'
+
+4) char var_name[size]  %s :  It is used to store   string type of data.
+
+                                           eg.   char   name[10]="Amol";
+	                                         char   branch[10]="IT"; 
+                                                 char   email[50]="amit@gamil.com"
+
+
+Basic Program: -
+
+Example-1
+-------------------------------------------------------------------------------
+#include<stdio.h>  // printf
+
+int main()
+{
+	 int    rollno=101;
+	 char   name[10]="Amol";
+	 char   branch[10]="IT";
+	 float  per=89.77;
+	 char   grade='A';
+	  
+	 printf("The Rollno is %d",rollno);
+	 printf("\n Name  student is %s ",name);
+	 printf("\n The Branch is %s and Percentage is %0.2f ",branch,per);
+	 printf("\n The Grade of Student is %c ",grade);
+	 
+	
+	return 0;
+}
+
+
+
+Example-2
+----------------------------------------------------------------------------
+wap to print sum and mean of 3 given number (a=10,b=20,c=30)
+
+Ans: 
+
+#include<stdio.h>  // printf
+
+int main()
+{
+	  int a=10,b=20,c=30;
+	  int s;
+	  float m;
+	  
+	  
+	  s=a+b+c;
+	  m=s/3.0;
+	  
+	  
+	  printf("\n Sum is %d ",s);
+	  printf("\n Mean is %0.2f ",m);
+	
+	
+    getch();	//return 0;
+}
+
+
+                                                 ----------------------------END FOR TODAY--------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Program-1
+-------------
+
+
+
+
+
+
+
+
+

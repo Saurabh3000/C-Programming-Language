@@ -1,0 +1,183 @@
+Example-3
+----------------
+wap to print ename,job, wages  and working days and calculate payment of employee.
+Ans:
+#include<stdio.h>
+
+int main()
+{
+	char name[10]="Ram";
+	char job[10]="Developer";
+	int wg=700;
+	int wd=30;
+	int pay;
+	
+	
+	pay=wg*wd;  // 21000
+	
+	
+	printf("\n The Employee name is : %s ",name);
+	
+	printf("\n The Employee job is  : %s ",job);
+	
+	printf("\n The Payment of Employee is : %d",pay);
+	
+	//or
+	
+	printf("%s Payment is %d and Job is %s",name,pay,job);
+	
+	
+	return 0;
+}
+
+
+Wap to print value of two variable a=5  , b=7  and swap means exchange value of two variable
+ and print them.
+
+Ans:
+-------
+#include<stdio.h>  // printf()
+#include<conio.h>  // getch()
+
+int main()
+{
+	int a=5,b=7;
+	int z;
+	
+	printf("\n\n The Value Before exchnage %d and %d ",a,b); // 5   7
+	
+	z=a;
+	a=b;
+	b=z;
+	
+	printf("\n\n The Value After exchnage %d and %d ",a,b); // 7   5
+		
+	getch();       //  or we can use    return 0
+}
+
+How to Break Number
+--------------------------------
+1)  5 4
+     /  %
+
+             _5_____   <-----Ans By ----   /(div)
+      10  | 54
+            | 50
+           ----------
+                4   <------Ans by--------  %(Mod)  
+
+
+2) 5 4  3
+    -----  -
+      /     %
+
+
+                    54             <---------- /
+           10 |---------------
+                | 543
+                | 50
+                | -----
+                     43
+                     40
+                  --------
+                      3     <--------   %
+
+
+3) 6789
+    -----  
+      /    %
+
+
+
+
+wap print first number and last number from two digit number (54)
+Ans: 
+#include<stdio.h>  // printf()
+#include<conio.h>  // getch()
+
+int main()
+{
+    int n=54;
+	int a, b;
+	
+	a=n/10 ;    //a=5
+	b=n%10;     // b=4
+	
+	printf("\n The Given  number is %d ",n);  // 54
+	
+	printf("\n The First number is %d ",a);  // 5
+	printf("\n The Last number is %d ",b);  //4
+     
+	getch();      
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
