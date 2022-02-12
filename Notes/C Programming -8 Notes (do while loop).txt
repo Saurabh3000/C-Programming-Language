@@ -1,0 +1,417 @@
+Do while loop
+--------------------
+Syntax:
+---------
+  do{
+          statement-1;
+          statement-2;
+
+      }while(condition);
+
+      
+
+#include<stdio.h> // printf()
+#include<conio.h>  // getch()
+
+int main()
+{ 
+   char pname[10];
+   int rate,qty,bill;
+   int fbill=0;
+   int choice;
+   int damt;
+   
+ do{
+ 
+	   printf("\n\n Enter the Product Name :");
+	   scanf("%s",pname);
+	   
+	   printf("\n Enter the Product Rate :");
+	   scanf("%d",&rate);
+	   
+	   printf("\n Enter the Product Quantity :");
+	   scanf("%d",&qty);
+	   
+	   bill=rate * qty;
+	   
+	   printf("\n Bill amount  :%d ",bill);
+	   
+	   fbill=fbill+bill;
+	   
+	   printf("\n Wud U Like buy product again ?");
+	   printf("\n Press-1 to Continue Press-2 to Exit ");
+	   scanf("%d",&choice); // N
+	   
+	   
+   }while(choice==1); 
+   
+       if(fbill>=10000)
+	   {
+	   	  damt=fbill*0.30; // 9000=30000*0.30
+		  printf("\n Discount amount is :%d",damt);
+		  fbill=fbill-damt; // 21000=30000-9000
+		  		  	         
+	   }  
+	   else
+	   {
+	   	 printf("\n Not Applicable for Discount ...");
+		} 
+	 
+    printf("\n kindly Pay your bill : %d ",fbill);
+    printf("\n******Thank you for shopping *****\n");
+   
+  return 0;
+ 	  
+}
+
+ KINGBURGER Shop Software 
+-------------------------------------------
+#include<stdio.h> // printf()
+#include<conio.h>  // getch()
+
+int main()
+{ 
+   int sp=100, rp=200, lp=500, jp=700;
+   int lt=30, gt=50, bt=100;
+   int vb=100, chkb=200;
+   int vi=50, ci=100, bi=150;
+   int ff=200, ngts=300;
+   int cc=100, hc=50;
+   
+   int pcode, qty, bill,pch;
+   
+   printf("\n Please select Product Code :");
+   printf("\n 1.For Pizza");
+   printf("\n 2.For Tea");
+   printf("\n 3.Burger");
+   printf("\n 4.Icecream");
+   printf("\n 5.French Fries");
+   printf("\n 6.Naggets");
+   printf("\n 7.Coffee");
+   scanf("%d",&pcode);
+   
+   if(pcode==1)
+   { 
+       printf("Press-1 For Small Pizza Rs 100");
+   	   printf("Press-2 For Regular Pizza Rs 200");
+   	   printf("Press-3 For Large Pizza Rs 500");
+   	   printf("Press-4 For Jumbo Pizza Rs 700");
+   	   scanf("%d",&pch);
+   	   
+   	   if(pch==1)
+   	   {
+   	   	   printf("\n You have selected Small Pizza ");
+   	   	   printf("\n Enter the Quantity :");
+   	   	   scanf("%d",&qty);
+   	   	   
+   	   	   bill=sp*qty;
+   	   	   
+   	   	   printf("Bill amount is :%d ",bill);
+	   }
+	   else if(pch==2)
+	   {
+	       printf("\n You have selected Regular Pizza ");
+   	   	   printf("\n Enter the Quantity :");
+   	   	   scanf("%d",&qty);
+   	   	   
+   	   	   bill=rp*qty;
+   	   	   
+   	   	   printf("Bill amount is :%d ",bill);	
+	   }
+	   else if(pch==3)
+	   {
+	   	   printf("\n You have selected Large Pizza ");
+   	   	   printf("\n Enter the Quantity :");
+   	   	   scanf("%d",&qty);
+   	   	   
+   	   	   bill=lp*qty;
+   	   	   
+   	   	   printf("Bill amount is :%d ",bill);
+	   }
+   	   else if(pch==4)
+	   {
+	   	   printf("\n You have selected jumbo Pizza ");
+   	   	   printf("\n Enter the Quantity :");
+   	   	   scanf("%d",&qty);
+   	   	   
+   	   	   bill=jp*qty;
+   	   	   
+   	   	   printf("Bill amount is :%d ",bill);
+	   }
+	   else
+	   {
+	   	  printf("\n Invalid Pizza choice ");
+	   }
+   	   
+   }//end for pizza
+   else if(pcode==2)
+   {
+   	
+   }//end for tea
+   
+   
+   
+   
+   else
+   {
+   	   printf("\n Invalid choice for Product ");
+   }
+   
+   
+   
+  return 0;
+ 	  
+}
+
+
+    
+
+                          ---------------------END FOR TODAY------------------------------
+
+ATM   Code    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+                                  
+
+
+
+
+
+
+
+
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

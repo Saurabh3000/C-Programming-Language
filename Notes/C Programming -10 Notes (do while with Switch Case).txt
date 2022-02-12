@@ -1,0 +1,170 @@
+Date:- 8-Feb-2022
+
+
+Wap  to read transaction code and perform operation
+following operation
+
+    O-open Account
+    S-ShowInfo
+    D-Deposit
+    W-withdraw
+
+#include<stdio.h>
+
+int main()
+{
+	int tcode;
+	int accno,amt,bal,damt,wamt;
+	char name[10];
+	int ch;
+	 
+  do{
+  	
+	printf("\n Press-1 Open Account ");
+	printf("\n Press-2 for Show Account Info  ");
+	printf("\n Press-3  Deposit ");
+	printf("\n Press-4  Withdraw ");
+	
+	printf("\n Enter the Transaction code ");
+	scanf("%d",&tcode); //3
+	
+	switch(tcode)
+	{
+	
+		case 1:printf("\n Enter the accno no :");
+		         scanf("%d",&accno);  //101
+		         
+		         printf("\n Enter the Name :");
+		         scanf("%s",&name); // Ram
+		         
+		         printf("\n Enter the Acc Opening bal :");
+		         scanf("%d",&bal); // 5000
+		         break; // transfer program out of switch
+
+	    
+		case 2: printf("\n The Accno is  :%d ",accno);
+		          printf("\n The Name is %s ",name); 
+				  printf("\n The Balance amt is :%d",bal); 	         
+		          break;
+		           
+		case 3:printf("\n Enter the amount for deposit ");
+		       scanf("%d",&damt); // 10000
+			   bal=bal+damt; // 15000=5000+10000
+			   printf("\n Balance after deposit is :%d",bal);	          
+			   break;
+			   
+	  
+	 case 4 :printf("\n Enter the amount for Withdraw ");
+	            scanf("%d",&wamt);
+				if(wamt>bal)
+				{
+				   printf("\n You have insufficient balance ");
+				   printf("\n Your Balance amount :%d",bal);
+				   printf("\n Your trying to withdraw :%d ",wamt);	
+				}		   	
+				else
+				{
+		           bal=bal-wamt;
+				   printf("\n Balance after withdraw is :%d",bal);   
+		        }
+		        break;
+		        
+		   default: printf("\n Invalid transaction code ..");     
+      	} // end switch case 
+	
+	 printf("\n Wud Like Transaction again ?");
+	 printf("\n Press-1 to Continue and Press-2 to Exit");
+                   scanf("%d",&ch); 
+	 	  
+	}while(ch==1);
+	
+	  printf("\n\t****Thank you banking with Us*****\n");
+	
+	 
+   	 
+	
+	
+  return 0;
+}
+   
+Increment and decrement Operator
+--------------------------------------------------
+
+Example-1
+----------------
+int main()
+{
+    int a=100;
+    int b=200;
+    int x,y;
+
+     x=a++;     // x=100    a=101
+     y=++b;   // y=201    b=201
+
+    printf("%d",x);   // 100  
+    printf("%d",y ); // 201    
+       
+return 0;
+}
+ 
+int main()
+{
+     int a=10,b=20,c=30;
+     int x,y,z;
+
+    x=a++;     // x=10    a=11
+    y=++a;     // y=12     a=12
+    z=c++;     // z=30    c=31
+
+   printf("%d",x);  //  10
+   printf("%d",y); // 12
+   printf("%d",z); //30
+   printf("%d",a); // 12
+        
+
+return 0;
+
+}
+
+
+int main()
+{
+  int a=100, b=200, c=300;
+  int x,y,z;
+
+   x=a++;  x=100   a=101
+   y=a++; y=101  a=102
+   z=++a;  z=103  a=103
+
+  printf("%d",x);      100  
+  printf("%d",y);    101   
+  printf("%d",z);    103    
+
+   
+return 0;
+
+}
+
+                       -------------END FOR TODAY-------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
