@@ -1,0 +1,46 @@
+Name of Student is = SaurabhTotal Mark is = 150Name of Student is = Saurabh
+ Total Mark is = 150Student is PassPercentage is = 50.00Name of Student is = Saurabh
+ Total Mark is = 150
+ Student is Pass
+ Percentage is = 50.00Name of Student is = Saurabh
+ Total Mark is = 150
+ Student is Pass
+ Percentage is = 50.00Name of Student is = Saurabh
+ Total Mark is = 150
+ Student is Pass
+ Percentage is = 50.00
+ ----------------------------Name of Student is = Aditya
+ Total Mark is = 150
+ Student is Pass
+ Percentage is = 50.00
+ ----------------------------
+ Name of Student is = Arati
+ Total Mark is = 285
+ Student is Pass
+ Percentage is = 95.00
+ ----------------------------
+ Name of Student is = ABC
+ Total Mark is = 150
+ Student is Pass
+ Percentage is = 50.00
+ ----------------------------
+ Name of Student is = BCA
+ Total Mark is = 150
+ Student is Pass
+ Percentage is = 50.00
+ ----------------------------
+ Name of Student is = BCV
+ Total Mark is = 5150
+ Student is Pass
+ Percentage is = 1716.00
+ ----------------------------
+ Name of Student is = VBN
+ Total Mark is = 118
+ Studnet is Fail
+ Percentage is = 39.00
+ ----------------------------
+ Name of Student is = XYZ
+ Total Mark is = 135
+ Student is Pass
+ Percentage is = 45.00
+ ----------------------------

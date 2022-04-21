@@ -1,0 +1,4 @@
+Product Name is = pen
+ Product Rate is = 30
+ Product Quantity is = 2
+ Total Bill is = 60

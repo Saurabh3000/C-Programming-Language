@@ -1,0 +1,6 @@
+Product Name is = Table
+ Product Rate is = 10000
+ Product Quantity is = 4
+ Total Bill is = 40000
+ Disscount is = 8000
+ Final Bill is = 32000
